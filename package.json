@@ -1,0 +1,20 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js --watch ../ -e js,hbs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animated-weather-icon": "^1.0.10",
+    "express": "^4.17.1",
+    "hbs": "^4.2.0",
+    "request": "^2.88.2",
+    "require": "^2.4.20"
+  }
+}
