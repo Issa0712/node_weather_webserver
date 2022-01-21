@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js --watch ../ -e js,hbs"
+    "start": "node src/app.js",
+    "dev": "nodemon app.js --watch ../ -e js,hbs"
   },
   "keywords": [],
   "author": "",

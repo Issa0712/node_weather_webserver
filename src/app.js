@@ -3,6 +3,7 @@ const express = require('express')
 const hbs = require('hbs')
 const request = require('request') 
 const app = express()
+const port = process.env.PORT || 3000
 
 //load in utility files
 
@@ -116,6 +117,6 @@ app.get('*', (req,res) => {
     })
 })
 
-app.listen('3000', () => {
-    console.log('server running on port 3000')
+app.listen(port, () => {
+    console.log(`server running on port ${port}`)
 })
